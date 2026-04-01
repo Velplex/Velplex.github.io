@@ -1,0 +1,51 @@
+
+
+
+h1{
+ font-family: merriweather;
+color: #d1633c;
+font-size: 2em;
+}
+
+body {
+background-color: #faf2e4;
+margin: 0 10%;
+font-family: sans-serif;
+
+}
+
+h1 {
+text-align: center;
+text-transform: uppercase;
+border-bottom: 3px solid #57b1dc;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+h2 {
+    border-top: 3px solid #57b1dc;
+  font-family: merriweather;
+color: #d1633c;
+font-size: 1.5em;
+}
+
+p {
+font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* ---------------------------------------------------------------------------------------*/
+
+
+
+footer {
+text-align: right;
+  color: #ee8d6a;
+  border-top: 3px solid #57b1dc;
+  margin-top: 200px;
+
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 10px;           /* Adds space between the image and text */
+}
