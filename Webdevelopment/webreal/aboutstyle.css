@@ -50,6 +50,12 @@ text-align: right;
 
 }
 
+.container {
+  display: flex;
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 10px;           /* Adds space between the image and text */
+}
+
 /* --------------------------------------------------------------------*/
   .center-image {
   display: block;

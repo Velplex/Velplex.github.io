@@ -44,3 +44,9 @@ text-align: right;
   margin-top: 200px;
 
 }
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 10px;           /* Adds space between the image and text */
+}
