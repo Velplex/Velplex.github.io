@@ -82,3 +82,84 @@ video {
   max-width: 100%; /* Ensures responsiveness */
 }
 
+/* --------------------------------------------------------------------*/
+
+@media print {
+  /* Hide unnecessary elements (navigation, logos, etc.) */
+  header, nav, h1, .boarder .ad, footer img, aside, .sidebar, #ad-banner .icon {
+    display: none !important;
+            border: #000;
+            color: #000;
+            
+
+  }
+
+ body, p {
+    width: auto !important;
+    float: none !important;
+    position: static !important;
+    overflow: visible !important;
+        padding: 0;  
+
+  }
+
+
+  p {
+    page-break-inside: avoid;
+    break-inside: avoid;
+        font-size: 1.2em;
+    padding: 0;  
+    margin-left: 0;
+
+  }
+
+
+    @page {
+      text-align: left;
+    page-break-inside: avoid;
+   page-break-inside: avoid;
+    break-inside: avoid;
+    margin: 1in;
+  }
+
+
+
+  /* Show only necessary elements */
+  body {
+    font-family: "Times New Roman", Times, serif;
+    color: #000 !important;
+    background: #fff !important;
+    font-size: 1.2em;
+    border: none;
+        text-align: left;
+
+
+  }
+
+  /* Ensure text is black and stuff */
+  h2, h3, p, ul, ol, footer {
+        font-family: "Times New Roman", Times, serif;
+    color: #000 !important;
+    background: transparent !important;
+        border: #ffffff;
+    font-size: 1.2em;
+    text-align: left;
+    border: none;
+        padding: 0;  
+
+
+  }
+
+  /*  footer for only text contact information */
+  footer {
+    display: block !important;
+    font-size: 12pt;
+    border: none;
+    text-align: left;
+
+  }
+
+    nav, header, img, video, aside, .sidebar, .no-print {
+    display: none !important;
+  }
+}
