@@ -1,0 +1,75 @@
+
+
+h1{
+ font-family: merriweather;
+color: #d1633c;
+font-size: 2em;
+}
+
+body {
+background-color: #faf2e4;
+margin: 0 10%;
+font-family: sans-serif;
+
+}
+
+h1 {
+text-align: center;
+text-transform: uppercase;
+border-bottom: 3px solid #57b1dc;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+h2 {
+    border-top: 3px solid #57b1dc;
+  font-family: merriweather;
+color: #d1633c;
+font-size: 1.5em;
+}
+
+p {
+    text-indent: 2em;
+font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+ width: 900px;         /* Sets the width of the box */
+  border: 3px solid rgb(239, 202, 133); /* Adds a solid red border */
+  padding: 35px;        /* Adds space between the text and the border */
+  margin-left: 110px;         /* Adds space outside the border */
+  background-color: #fffffe; /* Sets a light gray background color */
+margin-top: 50px;
+}
+
+p ul {
+
+  font-size: 1.1em;
+font-family: merriweather;
+color: #ee8d6a;
+}
+
+/* ---------------------------------------------------------------------------------------*/
+
+
+span {
+
+  font-family: merriweather;
+color: #a9401a;
+font-size: 1.9em;
+
+}
+
+
+footer {
+text-align: right;
+  color: #ee8d6a;
+  border-top: 3px solid #57b1dc;
+  margin-top: 200px;
+
+}
+
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 10px;           /* Adds space between the image and text */
+}
+/*--------------------------------------------------------------------*/
