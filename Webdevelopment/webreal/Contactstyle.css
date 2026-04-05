@@ -49,3 +49,36 @@ text-align: right;
   align-items: center; /* Vertically centers the text with the image */
   gap: 10px;           /* Adds space between the image and text */
 }
+
+
+ form div {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  textarea {
+    height: 100px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #ff147e;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+
+  /* mobile stuff */
+
+  @media screen and (min-width: 768px) {
+  .container {
+    display: flex; /* Switch from a single column to multiple columns */
+  }
+}

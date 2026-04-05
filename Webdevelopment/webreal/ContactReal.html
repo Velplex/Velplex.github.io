@@ -13,7 +13,7 @@
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon(1).ico">
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
                         
@@ -52,8 +52,58 @@
 
 
 
-    <h2> filling</h2>  
-<p>Conatct stuff :p</p>
+    <h2> Please Fill Out The Form Below</h2>  
+
+  <!-- ______________________________FORM_________________________________________ -->
+
+<form action="/submit-form" method="POST">
+
+  <!-- Name Dropdown thingy -->
+  <div>
+    <label for="title">Title</label>
+    <select id="title" name="title" required>
+      <option value="" disabled selected>Select a title</option>
+      <option value="mr">Mr.</option>
+      <option value="ms">Ms.</option>
+      <option value="mx">Mx.</option>
+    </select>
+  </div>
+
+  <!--  Name -->
+  <div>
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Full name here" required>
+  </div>
+
+  <!-- Email Address -->
+  <div>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="123name@example.com" required>
+  </div>
+
+  <!-- Message -->
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="If you have questions type them here." required></textarea>
+  </div>
+
+  <!-- Select Button (Department Choice) -->
+  <div>
+    <label for="Question">How did you hear about this website?</label>
+    <select id="Question" name="Question" required>
+      <option value="" disabled selected>Choose an option</option>
+      <option value="Social Media">Social Media</option>
+      <option value="friends">Friends</option>
+      <option value="School">School</option>
+    </select>
+  </div>
+
+  <!-- Submit Button -->
+  <button href= "Contactconfirm.html" >Submit</button>
+</form>
+
+  <!-- ______________________________FORM_________________________________________ -->
+
 
 
 <footer>     <h3>Morgan Flynn- 2/14/26</h3> 
