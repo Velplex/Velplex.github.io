@@ -163,3 +163,38 @@ video {
     display: none !important;
   }
 }
+
+/*---------------------------------------*/
+
+/* General Media Styling */
+.media {
+align-content: center;
+
+}
+
+/* 1. Base styles (Mobile: Stacks automatically) */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* One single column */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 2. Desktop Layout (Screens wider than 768px) */
+@media (min-width: 768px) {
+    .grid-container {
+      
+        margin: 0 auto; /* Centers the layout on the screen */
+    }
+}
+
+@media (max-width: 7in) {
+    .grid-container {
+        /* Splitting into two columns: 60% bio, 40% media */
+        grid-template-columns: 3fr 2fr; 
+        align-items: start;
+        gap: 40px;
+        max-width: 1100px;
+        margin: 0 auto; /* Centers the layout on the screen */
+    }
+}
