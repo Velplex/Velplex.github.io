@@ -1,0 +1,144 @@
+
+<!DOCTYPE HTML>
+<HTML LANG="EN">
+
+<head>
+
+
+<meta charset="utf-8">
+<title>Contact</title>
+<META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITAL-SCALE=1.0">
+<link rel="stylesheet" href="Contactstyle.css">
+<link rel="stylesheet" href="ContactNavi.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon(1).ico">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+                        
+<body> 
+
+ <div class="logo-container">
+            <!-- Use the <img> tag for your logo image -->
+  <img src="card.png" alt="A sample image" width="65" height="85">
+        </div>
+
+   <h1> Contact</h1>
+
+
+     
+          
+         <nav id="desktop">
+<ul>
+  <li><a href="Index.html">Home</a></li>
+    <li><a href="ContactReal.html">Contact Me</a></li>
+  <li><a href="AboutReal.html">About</a></li>
+
+ <li>   <div class="dropdown">
+  <a href="ProjectReal.html" class="dropbtn">Projects </a>
+
+  <div class="dropdown-content">
+ <a href="ProjectReal.html#project One">Project One</a>
+<a href="ProjectReal.html#project Two">Project Two</a>
+<a href="ProjectReal.html#project Three">Project Three</a>
+  </div>
+  </div>
+  </li>
+  <li><a href="Reflection.html">Reflection</a></li>
+</ul>
+</nav> 
+
+<nav id="nav-mobile">
+      <div class="dropdown">
+
+  <button  class="hamburger">☰</button>
+  <div class="dropdown-content">
+
+<a href="Index.html">Home</a>
+<a href="ContactReal.html">Contact Me</a>
+<a href="AboutReal.html">About</a>
+
+<a href="ProjectReal.html" class="dropbtn">Projects </a>
+<a href="ProjectReal.html#project One">Project One</a>
+<a href="ProjectReal.html#project Two">Project Two</a>
+<a href="ProjectReal.html#project Three">Project Three</a>
+<a href="Reflection.html">Reflection</a>
+
+ </div>
+
+
+</div>
+</nav> 
+
+
+    <h2> Please Fill Out The Form Below</h2>  
+
+  <!-- ______________________________FORM_________________________________________ -->
+
+<form action="/submit-form" method="POST">
+
+  <!-- Name Dropdown thingy -->
+  <div>
+    <label for="title">Title</label>
+    <select id="title" name="title" required>
+      <option value="" disabled selected>Select a title</option>
+      <option value="mr">Mr.</option>
+      <option value="ms">Ms.</option>
+      <option value="mx">Mx.</option>
+    </select>
+  </div>
+
+  <!--  Name -->
+  <div>
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Full name here" required>
+  </div>
+
+  <!-- Email Address -->
+  <div>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="123name@example.com" required>
+  </div>
+
+  <!-- Message -->
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="If you have questions type them here." required></textarea>
+  </div>
+
+  <!-- Select Button (Department Choice) -->
+  <div>
+    <label for="Question">How did you hear about this website?</label>
+    <select id="Question" name="Question" required>
+      <option value="" disabled selected>Choose an option</option>
+      <option value="Social Media">Social Media</option>
+      <option value="friends">Friends</option>
+      <option value="School">School</option>
+    </select>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="submit">Send Message</button>
+</form>
+
+  <!-- ______________________________FORM_________________________________________ -->
+
+
+
+<footer>     <h3>Morgan Flynn- 2/14/26</h3> 
+
+<div class="container">
+<img src="icons8-mail-30.png" alt="Mail"> <h4> 2023mjf@gmail.com</h4>
+<img src="icons8-phone-30.png" alt="phone"> <h4>224-335-8091</h4>
+</div>
+
+
+</footer>
+
+</body>
+
+
+
+</html>
+
