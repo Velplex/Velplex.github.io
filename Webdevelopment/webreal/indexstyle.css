@@ -1,0 +1,239 @@
+
+
+
+h1{
+ font-family: merriweather;
+color: #d1633c;
+font-size: 2em;
+}
+
+body {
+background-color: #faf2e4;
+margin: 0 10%;
+font-family: sans-serif;
+
+}
+
+h1 {
+text-align: center;
+text-transform: uppercase;
+border-bottom: 3px solid #57b1dc;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+h2 {
+    border-top: 3px solid #57b1dc;
+  font-family: merriweather;
+color: #d1633c;
+font-size: 1.5em;
+}
+
+p {
+font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* ---------------------------------------------------------------------------------------*/
+
+
+
+footer {
+text-align: right;
+  color: #ee8d6a;
+  border-top: 3px solid #57b1dc;
+  margin-top: 200px;
+
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 10px;           /* Adds space between the image and text */
+}
+
+
+
+/*--------------------------------CHNAGEEE FOR PHONES CAUSE THIS SUCKS-------*/
+
+
+@media (max-width: 600px) { /* roughly 768px */
+  
+
+  
+  body, head, footer {
+    display: grid;
+    grid-template-columns: 1fr;
+max-width: max-content;
+    margin-left: 5px;
+max-width: 100%;
+text-align: center;
+border-top: 0px;
+ height: auto;    /* Maintain aspect ratio */
+  display: block;
+    word-wrap: break-word; /* Older browsers */
+    overflow-wrap: break-word; /* Modern browsers */
+}
+
+footer {
+  padding: 5px;
+  display: flex; 
+background-color: #ee8d6a;   height: auto;    /* Maintain aspect ratio */
+  display: block;
+      overflow-x:auto;
+      color: #faf2e4;
+  }
+
+h1 {
+
+  margin-left: 5px;
+border-bottom: 0px;
+}
+
+
+p {
+font-size: 15px;
+ width: 220px;         /* Sets the width of the box */
+  border: 5px solid rgb(239, 202, 133); /* Adds a solid red border */
+  padding: 35px;        /* Adds space between the text and the border */
+  background-color: #fffffe; /* Sets a light gray background color */
+margin-top: 50px;
+margin-left: 5px;
+ height: auto;    /* Maintain aspect ratio */
+  display: block;
+
+}
+
+.nav-desktop {
+    display: none;
+    
+  
+  }
+
+.image-container img {
+   width: 100%; /* Makes image fill the full column width */
+    height: auto; /* Maintains original proportions */
+    display: block; /* Removes unwanted bottom spacing */
+  }
+
+
+
+  table,
+  tr,
+  td {
+    display: block;
+  }
+
+  
+
+   tr {
+    padding: 0.7em 2vw;
+  }
+
+
+   td:nth-of-type(3) {
+    text-align: left;
+  }
+
+   td:nth-of-type(4), td:nth-of-type(5) {
+    text-align: right;
+    width: 12em;
+  }
+  td:nth-of-type(4)::before, td:nth-of-type(5)::before {
+    text-align: left;
+  }
+
+
+  th,
+  tr:first-of-type {
+    display: none;
+  }
+
+  caption {
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    font-weight: bold;
+  }
+
+  td:nth-child(1)::before {
+    content: "Author: ";
+}
+td:nth-child(2)::before {
+    content: "Title: ";
+}
+td:nth-child(3)::before {
+    content: "Year: ";
+}
+td:nth-child(4)::before {
+    content: "ISBN-13: ";
+}
+td:nth-child(5)::before {
+    content: "ISBN-10: ";
+}
+
+}
+
+
+
+
+tr:nth-child(even) {
+  background-color: rgba(246, 245, 173, 0.25);
+}
+tr:nth-child(odd) {
+  background-color: rgba(255, 207, 86, 0.5);
+}
+th {
+  background-color: rgba(69, 24, 24, 0.5);
+}
+
+
+th,
+td {
+  text-align: left;
+}
+th:nth-of-type(3),
+td:nth-of-type(3) {
+  text-align: right;
+}
+
+
+th,
+td {
+  padding: 0.25em 0.5em 0.25em 1em;
+  text-indent: -0.5em;
+}
+
+
+table, th, td {
+  border: 2px solid rgb(125, 58, 14); 
+  border-collapse: collapse; 
+}
+
+#Cap1 {
+
+    text-shadow: #d1953c;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+
+  table tbody tr:hover td {
+  background-color: #c8f2fa; 
+  cursor: pointer;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 600px) { 
+table, th, td {
+  border: 0px solid black; 
+  border-collapse: collapse;/* Merges double borders to one guy */
+  border: 2px solid rgb(125, 58, 14); 
+
+
+max-height: 400px;
+overflow-y: auto;
+
+}
+}
